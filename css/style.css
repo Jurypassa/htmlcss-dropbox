@@ -57,7 +57,7 @@ a{
     border: 1px solid #0061ff;
     background-color: #0061ff;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 20px;
     display: inline-block;
 }
 
@@ -83,8 +83,9 @@ a{
 }
 
 section h1{
-    font-size: 100px;
+    font-size: 95px;
     padding-top: 100px;
+    font-weight: 700;
 }
 
 section p{
@@ -113,8 +114,90 @@ section i{
     width: 1000px;
 }
 
+/* seconda section */
 
+.piano-drop .container h2{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
 
+.piano-drop span{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.piano-drop .container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.prova-gratis{
+    width: calc(100% / 3);
+    float: left;
+    border: 1px solid lightgray;
+}
+
+.box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.prova-gratis .center{
+    border-bottom: 1px solid lightgray;
+}
+
+.box h3{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.prova-gratis li{
+    list-style: none;
+}
+
+.prova-gratis .lista li:nth-child(1){
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.prova-gratis .lista li:nth-child(2){
+    color: lightgray;
+}
+
+.spazio-35{
+    padding-bottom: 35px;
+}
+
+.spazio-20{
+    padding-bottom: 20px;
+}
+
+.box .button{
+    width: 100%;
+    text-align: center;
+}
+
+.box a{
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.box>div{
+    margin-bottom: 35px;
+
+}
+
+.border{
+    border-bottom: 1px solid lightgrey;
+    width: 20%;
+}
 
 /**** debug ****/
 /*
@@ -123,27 +206,27 @@ header{
 } */
 
 
-.cont-jumbo{
+/* .cont-jumbo{
     height: 100%;    
-    /* background-color: blueviolet; */
-}
+    background-color: blueviolet;
+} */
 
-section{
+/* section{
     height: 800px;
-}
+} */
 
-.container{
+/* .container{
    background-color: yellow;
    height: 100%;
-}
+} */
 
 /* .sfondo{
     background-color:skyblue;
 } */
 
-.piano-drop{
+/* .piano-drop{
     background-color: salmon;
-}
+} */
 
 .partner-drop{
     background-color: royalblue;
