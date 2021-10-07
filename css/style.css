@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/**** debug ****/
+
+header{
+    height: 50px;
+    background-color: aqua;
+}
+
+section{
+    height: 600px;
+}
+
+.container{
+   background-color: yellow;
+   height: 100%;
+}
+
+.sfondo{
+    background-color:skyblue;
+}
+
+.piano-drop{
+    background-color: salmon;
+}
+
+.partner-drop{
+    background-color: royalblue;
+}
+
+.oper-drop{
+    background-color: seagreen;
+}
+
+.faq-drop{
+    background-color: springgreen;
+}
+
+footer{
+    height: 600px;
+    background-color: black;
+}
