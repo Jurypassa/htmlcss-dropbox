@@ -1,3 +1,5 @@
+/**** common ****/
+
 *{
     margin: 0;
     padding: 0;
@@ -8,32 +10,42 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/**** header ****/
+
 header{
-    height: 50px;
-    line-height: 50px;
+    height: 70px;
+    line-height: 70px;
     position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
     background-color: white;
     width: 100%;
     padding: 0 20px;
 }
 
-img, 
+header img,
 header li{
     padding: 0px 20px;
 }
 
-img{
+header img{
     vertical-align: middle;
 }
 
 header *{
     display: inline-block;
-    
+
 }
 
 a{
     text-decoration: none;
-    color: black;    
+    color: black;
 }
 
 .destra{
@@ -46,21 +58,78 @@ a{
     background-color: #0061ff;
     color: white;
     padding: 5px 10px;
+    display: inline-block;
 }
 
-.container{
+/******* main *******/
+
+/**** prima section ****/
+
+.sfondo{
+    margin-top: 70px;
+    background-color: rgb(140, 178, 250);
+}
+
+
+.cont-jumbo{
     width: 80%;
     margin: 0 auto;
+    position: relative;
 }
 
+.colonna{
+    width: 30%;
+    margin-top: 40px;
+}
+
+section h1{
+    font-size: 100px;
+    padding-top: 100px;
+}
+
+section p{
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+section span{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+section div span{
+    display: block;
+}
+
+section i{
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.jumbo img{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    width: 1000px;
+}
+
+
+
+
 /**** debug ****/
-/* 
+/*
 header{
     background-color: aqua;
 } */
 
+
+.cont-jumbo{
+    height: 100%;    
+    /* background-color: blueviolet; */
+}
+
 section{
-    height: 600px;
+    height: 800px;
 }
 
 .container{
@@ -68,9 +137,9 @@ section{
    height: 100%;
 }
 
-.sfondo{
+/* .sfondo{
     background-color:skyblue;
-}
+} */
 
 .piano-drop{
     background-color: salmon;
