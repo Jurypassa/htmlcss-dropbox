@@ -93,7 +93,7 @@ a{
 
 /******* main *******/
 
-/**** prima section ****/
+/**** prima sezione ****/
 
 .sfondo{
     margin-top: 70px;
@@ -144,7 +144,7 @@ a{
     width: 1000px;
 }
 
-/* seconda section */
+/* seconda sezione */
 
 .piano-drop .container h2{
     padding-top: 200px;
@@ -278,10 +278,60 @@ a{
 
 .oper-drop div p{
     padding-top: 30px;
+    padding-bottom: 150px;
 }
 
 .oper-drop p span{
     text-decoration: underline;
+}
+
+/* quinta sezione */
+
+.business{
+    width: 100%;
+}
+
+.business h2{
+    padding-bottom: 30px;
+}
+
+.business .container div{
+    width: 48%;
+}
+
+.business a{
+    color: #0061ff;
+    text-decoration: underline;
+    padding-bottom: 40px;
+}
+
+.business .blocco-sn{
+    width: 30%;
+}
+
+.business .blocco-centrale{
+    width: 40%;
+}
+
+.business .blocco-sn .quadrato{
+    width: 50%;
+}
+
+.business .blocco-sn img{
+    width: 100%;
+    object-fit:cover;
+}
+
+.business .blocco-centrale img{
+    width: 100%;
+}
+
+.business .sinistra div:first-child{
+    background-color:#a2d39b;
+}
+
+.business .sinistra div:nth-child(2){
+    background-color: #61082b;
 }
 
 
