@@ -29,6 +29,13 @@ body{
     float: right;
 }
 
+.colonna{
+    width: 30%;
+}
+.margine{
+    margin: 0 5%;
+}
+
 h2{
     font-size: 40px;
 }
@@ -100,32 +107,32 @@ a{
     position: relative;
 }
 
-.colonna{
+.col-jumbo{
     width: 30%;
     margin-top: 40px;
 }
 
-section h1{
+.sfondo h1{
     font-size: 95px;
     padding-top: 100px;
     font-weight: 700;
 }
 
-section p{
+.sfondo p{
     margin-bottom: 40px;
     line-height: 1.6;
 }
 
-section span{
+.sfondo span{
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
-section div span{
+.sfondo div span{
     display: block;
 }
 
-section i{
+.sfondo i{
     font-size: 60px;
     margin-bottom: 100px;
 }
@@ -150,13 +157,8 @@ section i{
 }
 
 .prova-gratis{
-    width: 30%;
     min-height: 1000px;
     margin-bottom: 50px;
-}
-
-.margine{
-    margin: 0 5%;
 }
 
 .bordo{
@@ -266,7 +268,21 @@ section i{
 
 /* quarta sezione */
 
+.top{
+    margin-top: 100px;
+}
 
+.oper-drop img{
+    width: 100%;
+}
+
+.oper-drop div p{
+    padding-top: 30px;
+}
+
+.oper-drop p span{
+    text-decoration: underline;
+}
 
 
 /**** debug ****/
@@ -302,15 +318,15 @@ header{
     background-color: royalblue;
 } */
 
-.oper-drop{
+/* .oper-drop{
     background-color: seagreen;
-}
+} */
 
-.faq-drop{
+/* .faq-drop{
     background-color: springgreen;
 }
 
 footer{
     height: 600px;
     background-color: black;
-}
+} */
