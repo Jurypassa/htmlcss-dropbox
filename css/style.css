@@ -15,6 +15,12 @@ body{
     margin: 0 auto;
 }
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .sinistra{
     float: left;
 }
@@ -143,12 +149,6 @@ section i{
     padding-right: 10px;
 }
 
-.piano-drop .container::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .prova-gratis{
     width: 30%;
     min-height: 1000px;
@@ -220,10 +220,9 @@ section i{
 
 .vendite{
     width: 100%;
+    margin-bottom: 100px;
     border: 1px solid lightgray;
-    content: "";
-    display: table;
-    clear: both;
+    
 }
 
 .enterprice{
@@ -239,6 +238,35 @@ section i{
     padding-top: 20px;
     padding-bottom: 30px;
 }
+
+/* terza sezione */
+
+.partner-drop .img{
+    width: 55%;
+}
+
+.partner-drop .destra{
+    width: 40%;
+}
+
+.partner-drop img{
+    width: 100%;
+}
+
+.partner-drop .destra p,
+.partner-drop .destra h3{
+    padding-top: 40px;
+}
+
+.partner-drop .button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* quarta sezione */
+
+
 
 
 /**** debug ****/
@@ -270,9 +298,9 @@ header{
     background-color: salmon;
 } */
 
-.partner-drop{
+/* .partner-drop{
     background-color: royalblue;
-}
+} */
 
 .oper-drop{
     background-color: seagreen;
