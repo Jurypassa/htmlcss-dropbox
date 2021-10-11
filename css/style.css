@@ -448,6 +448,27 @@ a{
     padding: 10px 60px;
 }
 
+/* sesta sezione */
+{}
+
+.faq-drop{
+    margin-top: 100px;
+}
+
+.bord-bot{
+    border-bottom: 1px solid lightgray;
+    padding: 25px 0px 25px 0;
+}
+
+.faq-drop i{
+    margin-left: 280px;
+}
+
+.faq-drop p{
+    width: 100%
+}
+
+
 /**** debug ****/
 /*
 header{
