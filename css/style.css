@@ -449,10 +449,10 @@ a{
 }
 
 /* sesta sezione */
-{}
 
 .faq-drop{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .bord-bot{
@@ -467,6 +467,57 @@ a{
 .faq-drop p{
     width: 100%
 }
+
+/* footer */
+
+footer{
+    height: 600px;
+    background-color: black;
+}
+
+.cont-footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+footer ul{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding-right: 120px;
+    padding-bottom: 100px;
+
+}
+
+footer ul li:first-child{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+footer ul li:not(:first-child){
+    line-height: 2.5;
+    font-size: 12px;
+}
+
+footer .border{
+    width: 100px;
+}
+
+.lingue{
+    padding-top: 50px;
+    color: gray;
+}
+
+footer .lingue span{
+    font-size: 12px;
+}
+
+footer .lingue i:last-child{
+    font-size: 8px;
+}
+
+{}
 
 
 /**** debug ****/
@@ -508,9 +559,5 @@ header{
 
 /* .faq-drop{
     background-color: springgreen;
-}
-
-footer{
-    height: 600px;
-    background-color: black;
 } */
+
